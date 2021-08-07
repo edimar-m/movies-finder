@@ -1,17 +1,15 @@
 import { Layout } from "antd";
 import { HashRouter, Switch, Route } from "react-router-dom";
 
-//pages
+import MenuTop from "./components/MenuTop";
+import Footer from "./components/Footer";
+
 import Home from "./pages/home";
 import Error404 from "./pages/error404";
 import Movie from "./pages/movie";
 import NewMovies from "./pages/new-movies";
 import PopularMovies from "./pages/popular-movies";
 import Search from "./pages/search";
-
-//components
-import MenuTop from "./components/MenuTop";
-import Footer from "./components/Footer";
 
 function App() {
   const { Header, Content } = Layout;
